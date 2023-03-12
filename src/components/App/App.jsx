@@ -50,7 +50,7 @@ export const App = () => {
 
   const deleteUser = id => {
     const newContactList = contacts.filter(contact => contact.id !== id);
-    return setContacts({ newContactList });
+    return setContacts(newContactList);
   };
 
   const handleInputFilter = e => {

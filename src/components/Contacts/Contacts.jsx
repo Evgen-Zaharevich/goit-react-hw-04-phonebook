@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { List, ListItem, Button } from 'components/Contacts/Contacts.styled';
 
 export function Contacts({ contacts, onDeleteUser }) {
@@ -22,13 +22,13 @@ export function Contacts({ contacts, onDeleteUser }) {
   );
 }
 
-Contacts.propTypes = {
-  contacts: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      number: PropTypes.string.isRequired,
-    })
-  ),
-  onDeleteUser: PropTypes.func.isRequired,
-};
+// Contacts.propTypes = {
+//   contacts: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       id: PropTypes.string.isRequired,
+//       name: PropTypes.string.isRequired,
+//       number: PropTypes.string.isRequired,
+//     })
+//   ),
+//   onDeleteUser: PropTypes.func.isRequired,
+// };
